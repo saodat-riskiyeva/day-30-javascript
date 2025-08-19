@@ -6,6 +6,6 @@ let job = {
   place: "New York",
   salary: 120000,
 };
-alert(age);
-alert(userName);
-alert(hobbies[0]);
+
+let adultYears = age - 18;
+console.log(adultYears);
