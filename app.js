@@ -16,6 +16,19 @@ calculateAdultYears(age);
 age = 22;
 calculateAdultYears(age);
 
+let person = {
+  name: "Max", // Property
+  age: 42, // Method
+  hobbies: ["Sports", "Cooking", "Reading"],
+  isAdult: true,
+  job: "Software Engineer",
+  greet() {
+    console.log(
+      "Hello, my name is " + this.name + " and I am " + this.age + " years old."
+    );
+  },
+};
+
 // ++ (e.g. age++): Shorthand notation for age = age + 1 (increment a value stored in a variable by 1 and store it back into that variable)
 
 // -- (e.g. age--): Shorthand notation for age = age - 1 (decrement a value stored in a variable by 1 and store it back into that variable)
